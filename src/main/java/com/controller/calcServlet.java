@@ -73,8 +73,11 @@ public class calcServlet extends HttpServlet
 			
 			response.setContentType("text/html");
 			PrintWriter out = response.getWriter();
-			out.print("Ans = "+ans);
 			
 		}
+	}
+
+	void display(){
+
 	}
 }
